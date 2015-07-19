@@ -1,0 +1,11 @@
+{
+  "name": "nu2dir",
+  "author": "Exey Panteleev",
+  "description": "Saves nude pictures in directories by types, developer analogue of Firefox add-on Save Image in Folder",
+  "version": "0.1",
+  "permissions": ["contextMenus", "downloads"],
+  "background": {
+    "scripts": ["manager.js"]
+  },
+  "manifest_version": 2
+}
