@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7C8E2591E13FBF000A62298 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C8E2581E13FBF000A62298 /* main.swift */; };
+		F7C8E2621E140B8F00A62298 /* exey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C8E2601E140B8F00A62298 /* exey.cpp */; };
+		F7C8E2661E140C8D00A62298 /* lib_exey.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C8E2651E140C8D00A62298 /* lib_exey.a */; };
+		F7C8E2681E140D5B00A62298 /* wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C8E2671E140D5B00A62298 /* wrapper.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7C8E2531E13FBF000A62298 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F7C8E2551E13FBF000A62298 /* ExeyHatesCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExeyHatesCPP; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C8E2581E13FBF000A62298 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F7C8E25F1E140B8E00A62298 /* ExeyHatesCPP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExeyHatesCPP-Bridging-Header.h"; sourceTree = "<group>"; };
+		F7C8E2601E140B8F00A62298 /* exey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = exey.cpp; sourceTree = "<group>"; };
+		F7C8E2611E140B8F00A62298 /* exey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exey.h; sourceTree = "<group>"; };
+		F7C8E2651E140C8D00A62298 /* lib_exey.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = lib_exey.a; sourceTree = "<group>"; };
+		F7C8E2671E140D5B00A62298 /* wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wrapper.cpp; sourceTree = "<group>"; };
+		F7C8E26A1E14110400A62298 /* buildcpp.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = buildcpp.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7C8E2521E13FBF000A62298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C8E2661E140C8D00A62298 /* lib_exey.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7C8E24C1E13FBEF00A62298 = {
+			isa = PBXGroup;
+			children = (
+				F7C8E2571E13FBF000A62298 /* ExeyHatesCPP */,
+				F7C8E2561E13FBF000A62298 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7C8E2561E13FBF000A62298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7C8E2551E13FBF000A62298 /* ExeyHatesCPP */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7C8E2571E13FBF000A62298 /* ExeyHatesCPP */ = {
+			isa = PBXGroup;
+			children = (
+				F7C8E2581E13FBF000A62298 /* main.swift */,
+				F7C8E2601E140B8F00A62298 /* exey.cpp */,
+				F7C8E2611E140B8F00A62298 /* exey.h */,
+				F7C8E25F1E140B8E00A62298 /* ExeyHatesCPP-Bridging-Header.h */,
+				F7C8E26A1E14110400A62298 /* buildcpp.sh */,
+				F7C8E2651E140C8D00A62298 /* lib_exey.a */,
+				F7C8E2671E140D5B00A62298 /* wrapper.cpp */,
+			);
+			path = ExeyHatesCPP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7C8E2541E13FBF000A62298 /* ExeyHatesCPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C8E25C1E13FBF000A62298 /* Build configuration list for PBXNativeTarget "ExeyHatesCPP" */;
+			buildPhases = (
+				F7C8E2691E140E4300A62298 /* Run Script */,
+				F7C8E2511E13FBF000A62298 /* Sources */,
+				F7C8E2521E13FBF000A62298 /* Frameworks */,
+				F7C8E2531E13FBF000A62298 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExeyHatesCPP;
+			productName = ExeyHatesCPP;
+			productReference = F7C8E2551E13FBF000A62298 /* ExeyHatesCPP */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7C8E24D1E13FBEF00A62298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mozgazm;
+				TargetAttributes = {
+					F7C8E2541E13FBF000A62298 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J4GES9GRUE;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F7C8E2501E13FBEF00A62298 /* Build configuration list for PBXProject "ExeyHatesCPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7C8E24C1E13FBEF00A62298;
+			productRefGroup = F7C8E2561E13FBF000A62298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7C8E2541E13FBF000A62298 /* ExeyHatesCPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F7C8E2691E140E4300A62298 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ExeyHatesCPP\nbash buildcpp.sh";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7C8E2511E13FBF000A62298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C8E2621E140B8F00A62298 /* exey.cpp in Sources */,
+				F7C8E2591E13FBF000A62298 /* main.swift in Sources */,
+				F7C8E2681E140D5B00A62298 /* wrapper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7C8E25A1E13FBF000A62298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7C8E25B1E13FBF000A62298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F7C8E25D1E13FBF000A62298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = J4GES9GRUE;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExeyHatesCPP",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExeyHatesCPP/ExeyHatesCPP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F7C8E25E1E13FBF000A62298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = J4GES9GRUE;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExeyHatesCPP",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExeyHatesCPP/ExeyHatesCPP-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7C8E2501E13FBEF00A62298 /* Build configuration list for PBXProject "ExeyHatesCPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C8E25A1E13FBF000A62298 /* Debug */,
+				F7C8E25B1E13FBF000A62298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7C8E25C1E13FBF000A62298 /* Build configuration list for PBXNativeTarget "ExeyHatesCPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C8E25D1E13FBF000A62298 /* Debug */,
+				F7C8E25E1E13FBF000A62298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7C8E24D1E13FBEF00A62298 /* Project object */;
+}
