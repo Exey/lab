@@ -1,0 +1,1 @@
+ffmpeg -i mov.mp4 -metadata:s:v rotate="270" -vcodec copy -acodec copy mov_rot.mp4

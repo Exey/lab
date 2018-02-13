@@ -1,0 +1,1 @@
+ffmpeg -i mov.mkv -c copy j:\mov.mp4 

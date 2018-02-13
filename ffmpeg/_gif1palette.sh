@@ -1,0 +1,1 @@
+ffmpeg -y -i mov.mp4 -vf fps=10,scale=480:-1:flags=lanczos,palettegen palette.png

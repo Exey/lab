@@ -1,0 +1,1 @@
+ffmpeg -i mov.mp4 -metadata width=480 height=853 -acodec copy -vcodec copy mov_meta.mp4

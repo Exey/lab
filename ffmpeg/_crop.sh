@@ -1,0 +1,1 @@
+ffmpeg -i mov.mp4 -vf "crop=2160:2160:610:0" mov_crop.mp4

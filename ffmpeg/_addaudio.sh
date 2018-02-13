@@ -1,0 +1,1 @@
+ffmpeg -i mov.mp4 -i music.mp3 -codec copy -shortest mov_music.mp4

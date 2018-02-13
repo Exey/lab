@@ -1,0 +1,1 @@
+ffmpeg -i mov.mp4 -i palette.png -filter_complex "fps=3,scale=420:-1:flags=lanczos[x];[x][1:v]paletteuse" mov.gif

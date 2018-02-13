@@ -1,0 +1,1 @@
+ffmpeg -i mov.mp4 -ss 00:00:01.12 -t 00:00:02.0 -async 1 -c copy mov_cut.mp4 
